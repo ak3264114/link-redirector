@@ -9,6 +9,7 @@ const redirectMap = {
   default: 'https://www.accenture.com/in-en/careers/local/hro-careers',
   yt: 'https://youtube.com',
   gh: 'https://github.com',
+  googleform : "https://docs.google.com/forms/d/e/1FAIpQLSc0nQK7RQ9CYrkjKR49AgHCzlMbhqhooD_X94Vx_1xtEhx1zA/viewform?usp=dialog"
 };
 
 router.get('/:slug', async (req, res) => {
