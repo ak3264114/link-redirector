@@ -6,7 +6,7 @@ const router = express.Router();
 
 // Example hardcoded slug-to-URL map
 const redirectMap = {
-  default: 'https://example.com',
+  default: 'https://www.accenture.com/in-en/careers/local/hro-careers',
   yt: 'https://youtube.com',
   gh: 'https://github.com',
 };
